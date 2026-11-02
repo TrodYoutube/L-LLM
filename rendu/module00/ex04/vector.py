@@ -1,5 +1,3 @@
-import math
-
 class Vector:
     def __init__(self, values: list[int]):
         val = []
@@ -41,10 +39,11 @@ class Vector:
         return (self.__mul__(other))
     
     def __eq__(self, other):
+        if (not isinstance(other, Vector)):
+            return (NotImplemented)
         if (self.val == other.val):
             return (True)
-        else:
-            return (False)
+        return (False)
     
     def dot(self, other):
         if (len(self.val) != len(other)):
@@ -58,4 +57,4 @@ class Vector:
         return (self.dot(self) ** 0.5)
     
     def __repr__(self):
-        return (f"Vector([{}])")
+        return (f"Vector({self.val})")
