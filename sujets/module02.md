@@ -35,17 +35,17 @@ f'(x) = limite quand h → 0 de  (f(x + h) - f(x)) / h
 
 ### 2. Les dérivées à connaître
 
-| f(x) | f'(x) |
-|---|---|
+|       f(x) 	  | f'(x) |
+|-----------------|-------|
 | `c` (constante) | `0` |
-| `x` | `1` |
-| `a * x` | `a` |
-| `x²` | `2x` |
-| `xⁿ` | `n * xⁿ⁻¹` |
-| `eˣ` (`exp`) | `eˣ` (elle est sa propre dérivée !) |
+| `x`             | `1` |
+| `a * x`         | `a` |
+| `x²`            | `2x` |
+| `xⁿ`            | `n * xⁿ⁻¹` |
+| `eˣ` (`exp`)    | `eˣ` (elle est sa propre dérivée !) |
 | `ln(x)` (`log`) | `1 / x` |
-| `u + v` | `u' + v'` |
-| `u * v` | `u' * v + u * v'` |
+| `u + v`         | `u' + v'` |
+| `u * v`         | `u' * v + u * v'` |
 
 ### 3. La règle de la chaîne (THE règle)
 
